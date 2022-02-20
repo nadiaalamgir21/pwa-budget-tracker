@@ -1,8 +1,8 @@
 # PWA Budget Tracker
   Is a progressive Web Application (PWA) that enables the user to add expenses and deposits to their budget even without an online connection. When entering transactions offline, data syncs the total when connected back online.
 
-### Demo
-Link to demo site => https://nadia-budget-tracker.herokuapp.com/
+### Live Application
+Link to Live application site => https://nadia-budget-tracker.herokuapp.com/
 
 ### User Story
 AS AN avid traveller
