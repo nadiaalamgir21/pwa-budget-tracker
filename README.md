@@ -47,8 +47,6 @@ THEN the deposits or expenses added while they were offline are added to their t
 
 - [Install](#Install)
 
-- [Dependencies](#Dependencies)
-
 - [Technologies](#Technologies)
 
 - [Author](#Author)
@@ -184,9 +182,9 @@ npm i install
 
 ### Run
 
--  1. Install all dependencies
+-   Install all dependencies
 
--  2. Create a terminal on the project root and run:
+-   Create a terminal on the project root and run:
 
 ```` bash
 
@@ -194,83 +192,13 @@ mongod
 
 ````
 
--  3. Create another terminal on the same folder and run:
+-   Create another terminal on the same folder and run:
 
 ``` bash
 
 npm start
 
 ```
-
-  
-
-### Deploy
-
-- Follow the steps on how to deploy an app on heroku
-
-  
-
-1. Create a repository of your project in github.
-
-2. Clone that reporisitory to your VS Code using git:
-
-``` bash
-
-git clone "the link of the github repo"
-
-```
-
-3. In your project folder terminal create a heroku application using this command:
-
-``` bash
-
-heroku create "name of your project"
-
-```
-
-4. Log in to your heroku account and look for your project in the DAHSBOARD. Go to the tabs located on top and click on DEPLOY. In the Deployement Method, click on the github icon to connect it to your github repository. Then on Automatic Deploy, click and enable automatic deploys
-
-  
-
-5. On the tabs on top, click Overview then on Installed add-ons click Configure Add-ons.
-
-  
-
-6. Since this project is build with MongoDB, search for mLab MongoDB in the Add-ons search. Make sure to select the "Sandbox-Free plan. Then provision it.
-
-  
-
-7. Make sure that you have "process.env.MONGODB_URI" in your mongoose.connect under the server file.
-
-  
-
-8. Try to add a code and push it to your github. It will automatically hook it to heroku. Now view your heroku app.
-
-  
-
-# Dependencies
-
-``` bash
-
-"dependencies": {
-
-"express": "^4.17.1",
-
-"install": "^0.13.0",
-
-"mongodb": "^3.5.5",
-
-"mongoose": "^5.9.7",
-
-"nodemon": "^2.0.2"
-
-}
-
-  
-
-```
-
-  
 
 # Technologies
 
@@ -295,9 +223,3 @@ heroku create "name of your project"
 # Author
 
 - Nadia A Alamgir
-
-- github:
-
-- website:
-
-- email:
